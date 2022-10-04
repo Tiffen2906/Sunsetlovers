@@ -1,0 +1,135 @@
+/* Write some CSS below */
+a {
+	color: #B7C4CF;
+	font-weight: bolder;
+	text-decoration: none;
+	transition: .3s;
+
+}
+body {
+  font-family: initial;
+	color: #967E76;
+	font-size: 22px;
+}
+
+h1, h2, h3 {
+	font-family: fantasy;
+	color: #D7C0AE;
+}
+
+p {
+  color: #404042;
+  opacity: .6;
+}
+
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/LaBaule4.JPG');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: blanchedalmond;
+  font-size: 0px;
+}
+
+.button-blue {
+  background-color: #EEE3CB;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: #D7C0AE;
+  color: white;
+}
+
+.card-white {
+  background: whitesmoke;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+  margin-bottom: 1;
+}
+ .card-white {
+    width: auto;
+  }
+
+.footer p {
+  background: #EEE3CB;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  color: #967E76;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+/* Cards media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
